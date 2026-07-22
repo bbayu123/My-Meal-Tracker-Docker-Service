@@ -1,0 +1,17 @@
+[project]
+name = "my-meal-tracker-docker-service"
+description = "Docker service for meal tracking which uses a VLM for food portion recognition."
+version = "1.0.0"
+requires-python = ">=3.10"
+authors = [
+  {name = "Cyrus Li"},
+]
+readme = "README.md"
+license = "MIT-Modern-Variant"
+license-files = ["LICENSE.md"]
+
+[tool.black]
+line-length = 120
+
+[tool.fastapi]         
+entrypoint = "main:app"

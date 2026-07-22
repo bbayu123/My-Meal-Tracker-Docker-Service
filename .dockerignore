@@ -1,0 +1,7 @@
+.git/
+.gitlab/
+.venv/
+__pycache__/
+*.gitignore
+*.gitlab-ci.yml
+*.pyc

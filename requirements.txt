@@ -1,0 +1,5 @@
+SQLAlchemy~=2.0.51
+alembic~=1.18.5
+fastapi[standard-no-fastapi-cloud-cli]~=0.139.0
+pydantic~=2.13
+requests~=2.34
